@@ -1,0 +1,10 @@
+[23:29:28] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.7.6 with Fabric Loader 0.14.19-babric.1
+[23:29:28] [main/INFO] (FabricLoader) Loading 5 mods:
+	- expandable_tnt 1.0
+	- fabricloader 0.14.19-babric.1
+	- halplibe 1.1.4
+	- java 17
+	- minecraft 1.7.6
+[23:29:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[23:29:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:29:30] [AWT-EventQueue-0/INFO] (halplibe) HalpLibe initialized.

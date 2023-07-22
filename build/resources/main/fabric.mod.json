@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "expandable_tnt",
+  "version": "1.0",
+
+  "name": "Expandable TNT",
+  "description": "This mod contains a TNT that you can fill with sulphur for a maximum of a 10 explosion radius.",
+  "authors": [
+    "RuDev"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rudevmods.expandable_tnt.Expandable_TNT"
+    ]
+  },
+  "mixins": [
+    "expandable_tnt.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "halplibe": ">=1.1.4"
+  },
+  "suggests": {
+  }
+}

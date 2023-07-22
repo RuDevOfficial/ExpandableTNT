@@ -1,0 +1,8 @@
+tile.testmod.fossiloreblock.name=Mineral Fosilizado
+tile.testmod.fossiloreblock.desc=Piedra con fósiles antiguos dentro. Rompelo para obtener huesos.
+tile.testmod.dirtfurnaceblockactive.name=Horno Tierroso (Activo)
+tile.testmod.dirtfurnaceblockactive.desc=Cuando estás desesperado.
+tile.testmod.dirtfurnaceblockidle.name=Horno Tierroso
+tile.testmod.dirtfurnaceblockidle.desc=Cuando estás desesperado.
+tile.testmod.expandabletntblock.name=TNT Expandible
+tile.testmod.expandabletntblock.desc=Cuando un solo bloque de dinamita no es suficiente. Haz click derecho con pólvora para potenciarla.

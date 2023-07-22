@@ -1,0 +1,94 @@
+[23:29:28] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.7.6 with Fabric Loader 0.14.19-babric.1
+[23:29:28] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.MinecraftApplet -> net.minecraft.client.Minecraft
+[23:29:28] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+[23:29:28] [main/DEBUG] (FabricLoader/GamePatch) Patched 1 class
+[23:29:28] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 22,0 ms
+[23:29:28] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 40,1 ms
+[23:29:28] [main/INFO] (FabricLoader) Loading 5 mods:
+	- expandable_tnt 1.0
+	- fabricloader 0.14.19-babric.1
+	- halplibe 1.1.4
+	- java 17
+	- minecraft 1.7.6
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\BTA 1.7.6.2_02\rudevmods-expandable_tnt\.gradle\loom-cache\remapped_mods\loom_mappings_1_7_6_2_02_layered_hash_31_v2\bta-halplibe\halplibe\1.1.4\halplibe-1.1.4.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\BTA 1.7.6.2_02\rudevmods-expandable_tnt\build\resources\main to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer turniplabs.halplibe.HalpLibe for mod halplibe (key main)
+[23:29:28] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer rudevmods.expandable_tnt.Expandable_TNT for mod expandable_tnt (key main)
+[23:29:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)]
+[23:29:28] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Ruben/.gradle/caches/modules-2/files-2.1/babric/fabric-loader/0.14.19-babric.1/52167b44830984ac0117f607fbc913ece26e2c5f/fabric-loader-0.14.19-babric.1.jar)]
+[23:29:28] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 6 ms
+[23:29:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.7.6.2_02-loom.mappings.1_7_6_2_02.layered+hash.31-v2\minecraft-merged-1.7.6.2_02-loom.mappings.1_7_6_2_02.layered+hash.31-v2.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\BTA 1.7.6.2_02\rudevmods-expandable_tnt\build\classes\java\main to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\BTA 1.7.6.2_02\rudevmods-expandable_tnt\build\resources\main to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\fabric-loom\1.7.6.2_02\loom.mappings.1_7_6_2_02.layered+hash.31-v2\mappings.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.fabricmc\dev-launch-injector\0.2.1+build.8\da8bef7e6e2f952da707f282bdb46882a0fce5e3\dev-launch-injector-0.2.1+build.8.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-babric.1\3cf0e66ef512a7320eb25d34dd87b402f6c068e5\lwjgl-2.9.4-babric.1.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-babric.1\985500842d01f9325533c86b02a3bc152cbff601\lwjgl_util-2.9.4-babric.1.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\objects\client\43db9b498cb67058d2e12d394e6507722e71bb45\43db9b498cb67058d2e12d394e6507722e71bb45\client-43db9b498cb67058d2e12d394e6507722e71bb45.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding D:\DESARROLLO DE VIDEOJUEGOS\MINECRAFT MODDING\BTA 1.7.6.2_02\rudevmods-expandable_tnt\.gradle\loom-cache\remapped_mods\loom_mappings_1_7_6_2_02_layered_hash_31_v2\bta-halplibe\halplibe\1.1.4\halplibe-1.1.4.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Ruben\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar to classpath.
+[23:29:28] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'preLaunch'
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Selecting config halplibe.mixins.json
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Remapping refMap halplibe-refmap.json using remapper chain
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Selecting config expandable_tnt.mixins.json
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Preparing halplibe.mixins.json (16)
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Preparing expandable_tnt.mixins.json (0)
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.BlockAccessor from halplibe.mixins.json into net.minecraft.src.Block
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing mixins.StringTranslateMixin from halplibe.mixins.json into net.minecraft.src.StringTranslate
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.StringTranslateMixin from mod halplibe->@Inject::halplibe_onApplyTranslations(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.StringTranslateMixin from mod halplibe->@Inject::halplibe_onApplyTranslations(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[23:29:29] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.StringTranslateMixin from mod halplibe->@Inject::halplibe_onApplyTranslations(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[23:29:30] [AWT-EventQueue-0/DEBUG] (halplibe) Language file for java is not null: false
+[23:29:30] [AWT-EventQueue-0/DEBUG] (halplibe) Language file for minecraft is not null: false
+[23:29:30] [AWT-EventQueue-0/DEBUG] (halplibe) Language file for halplibe is not null: false
+[23:29:30] [AWT-EventQueue-0/DEBUG] (halplibe) Language file for expandable_tnt is not null: true
+[23:29:30] [AWT-EventQueue-0/DEBUG] (halplibe) Language file for fabricloader is not null: false
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.TileEntityAccessor from halplibe.mixins.json into net.minecraft.src.TileEntity
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callAddMapping(Ljava/lang/Class;Ljava/lang/String;)V to callAddMapping$halplibe_$md$997509$0 in halplibe.mixins.json:accessors.TileEntityAccessor from mod halplibe
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.CraftingManagerAccessor from halplibe.mixins.json into net.minecraft.src.CraftingManager
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.RecipesFurnaceAccessor from halplibe.mixins.json into net.minecraft.src.RecipesFurnace
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'main'
+[23:29:30] [AWT-EventQueue-0/INFO] (halplibe) HalpLibe initialized.
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.RenderManagerAccessor from halplibe.mixins.json into net.minecraft.src.RenderManager
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.RenderPlayerAccessor from halplibe.mixins.json into net.minecraft.src.RenderPlayer
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method getArmorFilenamePrefix()[Ljava/lang/String; to getArmorFilenamePrefix$halplibe_$md$997509$0 in halplibe.mixins.json:accessors.RenderPlayerAccessor from mod halplibe
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method setArmorFilenamePrefix([Ljava/lang/String;)V to setArmorFilenamePrefix$halplibe_$md$997509$1 in halplibe.mixins.json:accessors.RenderPlayerAccessor from mod halplibe
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.EntityListAccessor from halplibe.mixins.json into net.minecraft.src.EntityList
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Mixin) Mixing accessors.RecipesBlastFurnaceAccessor from halplibe.mixins.json into net.minecraft.src.RecipesBlastFurnace
+[23:29:30] [AWT-EventQueue-0/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'client'
+[23:29:31] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing mixins.RenderEngineMixin from halplibe.mixins.json into net.minecraft.src.RenderEngine
+[23:29:31] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderEngineMixin from mod halplibe->@Inject::halplibe_initDynamicTextures(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[23:29:31] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderEngineMixin from mod halplibe->@Inject::halplibe_initDynamicTextures(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[23:29:31] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderEngineMixin from mod halplibe->@Inject::halplibe_initDynamicTextures(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[23:29:32] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing mixins.RenderGlobalMixin from halplibe.mixins.json into net.minecraft.src.RenderGlobal
+[23:29:32] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderGlobalMixin from mod halplibe->@Inject::halplibe_spawnParticle(Ljava/lang/String;DDDDDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[23:29:32] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderGlobalMixin from mod halplibe->@Inject::halplibe_spawnParticle(Ljava/lang/String;DDDDDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[23:29:32] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.RenderGlobalMixin from mod halplibe->@Inject::halplibe_spawnParticle(Ljava/lang/String;DDDDDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[23:29:34] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing accessors.DimensionAccessor from halplibe.mixins.json into net.minecraft.src.Dimension
+[23:29:34] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method setDimensionList([Lnet/minecraft/src/Dimension;)V to setDimensionList$halplibe_$md$997509$0 in halplibe.mixins.json:accessors.DimensionAccessor from mod halplibe
+[23:29:34] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing mixins.ContainerPlayerCreativeMixin from halplibe.mixins.json into net.minecraft.src.ContainerPlayerCreative
+[23:29:35] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing mixins.MinecraftServerMixin from halplibe.mixins.json into net.minecraft.server.MinecraftServer
+[23:29:35] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftServerMixin from mod halplibe->@Inject::halplibe_startServer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[23:29:35] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftServerMixin from mod halplibe->@Inject::halplibe_startServer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[23:29:35] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftServerMixin from mod halplibe->@Inject::halplibe_startServer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[23:29:35] [Minecraft main thread/DEBUG] (FabricLoader/Mixin) Mixing accessors.TileEntityRendererAccessor from halplibe.mixins.json into net.minecraft.src.TileEntityRenderer
