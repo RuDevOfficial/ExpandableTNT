@@ -22,19 +22,23 @@ public class Expandable_TNT implements ModInitializer {
 
     public static int _ID = 1000;
 
-    public static Block expandableTNT = BlockHelper.createBlock(MOD_ID, new ExpandableTNTBlock(_ID),  "expandabletntblock", 23, 0,
-            24, 0, 22, 0, 22, 0, 22, 0, 22, 0,
+    static int[] textureSides = TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_front.png");
+    static int[] textureTop = TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_top.png");
+    static int[] textureBottom = TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_sides.png");
+
+    public static Block expandableTNT = BlockHelper.createBlock(MOD_ID, new ExpandableTNTBlock(_ID),  "expandabletntblock",
+            textureTop[0], textureTop[1], textureBottom[0], textureBottom[1], textureSides[0], textureSides[1], textureSides[0], textureSides[1], textureSides[0], textureSides[1], textureSides[0], textureSides[1],
             Block.soundGrassFootstep, 0, 0, 0);
+
+
+
 
     @Override
     public void onInitialize() {
-        TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_front.png");
-        TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_top.png");
-        TextureHelper.registerBlockTexture(MOD_ID, "expandabletntblock_sides.png");
 
         EntityHelper.createTileEntity(TileEntityExpandableTNT.class, "Expandable TNT");
         EntityHelper.createEntity(EntityExpandableTNTPrimed.class, new RenderExpandableTNTPrimed(), _ID + 2, "ExpandableTNT");
 
-        RecipeHelper.Crafting.createRecipe(expandableTNT, 1, new Object[] {"ABA", "BCB", "ABA", 'A', Item.ingotSteel, 'B', Block.sand, 'C', Block.glass});
+        RecipeHelper.Crafting.createRecipe(expandableTNT, 1, new Object[] {"ABA", "BCB", "ABA", 'A', Item.ingotSteelCrude, 'B', Block.sand, 'C', Block.glass});
     }
 }

@@ -56,5 +56,15 @@
       <option name="name" value="LoomLocalRemappedMods" />
       <option name="url" value="file:/$PROJECT_DIR$/../../../../DESARROLLO%20DE%20VIDEOJUEGOS/MINECRAFT%20MODDING/BTA%201.7.6.2_02/rudevmods-expandable_tnt/.gradle/loom-cache/remapped_mods/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomLocalMinecraft" />
+      <option name="name" value="LoomLocalMinecraft" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../../../../DESARROLLO%20DE%20VIDEOJUEGOS/MINECRAFT%20MODDING/BTA%201.7.6.2_02/rudevmods-expandable_tnt/ExpandableTNT/.gradle/loom-cache/minecraftMaven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomLocalRemappedMods" />
+      <option name="name" value="LoomLocalRemappedMods" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../../../../DESARROLLO%20DE%20VIDEOJUEGOS/MINECRAFT%20MODDING/BTA%201.7.6.2_02/rudevmods-expandable_tnt/ExpandableTNT/.gradle/loom-cache/remapped_mods/" />
+    </remote-repository>
   </component>
 </project>
